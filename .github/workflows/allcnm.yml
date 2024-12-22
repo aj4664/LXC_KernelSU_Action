@@ -1,0 +1,33 @@
+name: Trigger All Workflows Automatically
+
+on:
+  workflow_dispatch:
+
+jobs:
+  trigger-all-workflows:
+    runs-on: ubuntu-latest
+    steps:
+      # 步骤 1: 检出代码
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # 步骤 2: 获取所有 YML 文件
+      - name: List all workflow files
+        id: list_workflows
+        run: |
+          # 获取 .github/workflows 目录下的所有 yml 文件
+          workflows=$(find .github/workflows -type f -name "*.yml" -or -name "*.yaml")
+          echo "workflows=$workflows" >> $GITHUB_ENV
+
+      # 步骤 3: 遍历所有 YML 文件并触发
+      - name: Trigger each workflow
+        run: |
+          for workflow in ${{ env.workflows }}; do
+            # 提取工作流名称（从文件路径中获取文件名）
+            workflow_name=$(basename "$workflow")
+            echo "Triggering workflow: $workflow_name"
+            curl -X POST \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -d '{"ref": "main"}' \
+              "https://api.github.com/repos/${{ github.repository }}/actions/workflows/${workflow_name}/dispatches"
+          done
