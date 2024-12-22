@@ -16,7 +16,7 @@ jobs:
         id: list_workflows
         run: |
           # 获取 .github/workflows 目录下的所有 .yml 和 .yaml 文件
-          workflows=$(find .github/workflows -type f $-name "*.yml" -or -name "*.yaml"$)
+          workflows=$(find .github/workflows -type f $-name "*.yml" -o -name "*.yaml"$)
           echo "Found workflows: $workflows"
           
           # 将文件路径分配到环境变量中
