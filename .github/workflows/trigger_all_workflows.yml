@@ -13,200 +13,200 @@ jobs:
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/arter97-gcc-13.2.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/arter97-gcc-13.2.yml/dispatches
 
       - name: Trigger arter97-gcc-9.3.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/arter97-gcc-9.3.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/arter97-gcc-9.3.yml/dispatches
 
       - name: Trigger arter97-gcc-11.1.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/arter97-gcc-11.1.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/arter97-gcc-11.1.yml/dispatches
 
       - name: Trigger build-android-kernel-tools.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-android-kernel-tools.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-android-kernel-tools.yml/dispatches
 
       - name: Trigger build-kernel_by_ARM-gcc.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_ARM-gcc.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_ARM-gcc.yml/dispatches
 
       - name: Trigger build-kernel_by_LLVM-clang.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_LLVM-clang.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_LLVM-clang.yml/dispatches
 
       - name: Trigger build-kernel_by_LLVM-least.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_LLVM-least.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_LLVM-least.yml/dispatches
 
       - name: Trigger build-kernel_by_Mandi-Sa-clang.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_Mandi-Sa-clang.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_Mandi-Sa-clang.yml/dispatches
 
       - name: Trigger build-kernel_by_NDK.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_NDK.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_NDK.yml/dispatches
 
       - name: Trigger build-kernel_by_Neutron-clang.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_Neutron-clang.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_Neutron-clang.yml/dispatches
 
       - name: Trigger build-kernel_by_SD-clang-16.02.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_SD-clang-16.02.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_SD-clang-16.02.yml/dispatches
 
       - name: Trigger build-kernel_by_SD-clang-8.06.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_SD-clang-8.06.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_SD-clang-8.06.yml/dispatches
 
       - name: Trigger build-kernel_by_SD-clang.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_SD-clang.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_SD-clang.yml/dispatches
 
       - name: Trigger build-kernel_by_Slim_LLVM1.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_Slim_LLVM1.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_Slim_LLVM1.yml/dispatches
 
       - name: Trigger build-kernel_by_ZyC-clang.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_ZyC-clang.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_ZyC-clang.yml/dispatches
 
       - name: Trigger build-kernel_by_clang383902b.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_clang383902b.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_clang383902b.yml/dispatches
 
       - name: Trigger build-kernel_by_clang416183b1.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_clang416183b1.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_clang416183b1.yml/dispatches
 
       - name: Trigger build-kernel_by_gcc4.9.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_gcc4.9.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_gcc4.9.yml/dispatches
 
       - name: Trigger build-kernel_by_google-clang10.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_google-clang10.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_google-clang10.yml/dispatches
 
       - name: Trigger build-kernel_by_google-clang9.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_google-clang9.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_google-clang9.yml/dispatches
 
       - name: Trigger build-kernel_by_proton-clang.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_proton-clang.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_proton-clang.yml/dispatches
 
       - name: Trigger build-kernel_by_ubuntu-clang.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_ubuntu-clang.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_ubuntu-clang.yml/dispatches
 
       - name: Trigger build-kernel_by_ubuntu-gcc.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_by_ubuntu-gcc.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_by_ubuntu-gcc.yml/dispatches
 
       - name: Trigger build-kernel_ubuntu20.04.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_ubuntu20.04.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_ubuntu20.04.yml/dispatches
 
       - name: Trigger build-kernel_ubuntu22.04.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_ubuntu22.04.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_ubuntu22.04.yml/dispatches
 
       - name: Trigger build-kernel_use-Google-git.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-kernel_use-Google-git.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/build-kernel_use-Google-git.yml/dispatches
 
       - name: Trigger custom_gcc-12.1.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/custom_gcc-12.1.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/custom_gcc-12.1.yml/dispatches
 
       - name: Trigger linaro_gcc-10.2.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/linaro_gcc-10.2.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/linaro_gcc-10.2.yml/dispatches
 
       - name: Trigger linaro_gcc-4.9.yml
         run: |
           curl -X POST \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -d '{"ref":"main"}' \
-               https://api.github.com/repos/${{ github.repository }}/actions/workflows/linaro_gcc-4.9.yml/dispatches
+               https://api.github.com/repos/aj4664/LXC_KernelSU_Action/actions/workflows/linaro_gcc-4.9.yml/dispatches
